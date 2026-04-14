@@ -1,0 +1,51 @@
+/* Dark Mode Tree SVG Styles */
+.node circle {
+    fill: #0f172a;
+    /* slate-950 */
+    stroke: #a855f7;
+    /* purple-500 */
+    stroke-width: 2.5px;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 6px rgba(168, 85, 247, 0.4));
+}
+
+.node circle:hover {
+    fill: #a855f7;
+    stroke: #d8b4fe;
+    filter: drop-shadow(0 0 10px rgba(216, 180, 254, 0.8));
+}
+
+.node text {
+    font-family: 'Inter', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    fill: #f8fafc;
+    /* slate-50 */
+}
+
+.link {
+    fill: none;
+    stroke: #475569;
+    /* slate-600 */
+    stroke-width: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e293b;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}

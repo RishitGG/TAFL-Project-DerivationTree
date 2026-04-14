@@ -23,7 +23,7 @@ An interactive web-based tool for visualizing Context-Free Grammar (CFG) derivat
 ## Links
 
 - **Repository**: [GitHub](https://github.com/RishitGG/TAFL-Project-DerivationTree.git)
-- **Live Demo**: [Deployment Placeholder - Coming Soon]
+- **Live Demo**: [https://rishitgg.github.io/TAFL-Project-DerivationTree/](https://rishitgg.github.io/TAFL-Project-DerivationTree/)
 
 ## Tech Stack
 
